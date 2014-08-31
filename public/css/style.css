@@ -1,9 +1,21 @@
 .top-panel {
     padding: 5px;
     
-    -webkit-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.grey-text {
+    color: #555555;
+}
+
+.grey {
+    background-color: #fcfcfc;
+}
+
+.form-element {
+    margin-top: 15px;
 }
 
 #mulogo {
@@ -13,8 +25,35 @@
 
 #top-panel-title {
     font-size: 1.2em;
+    margin-top: 15px;
+}
+
+#login, #updates {
+    margin: 20px 20px;
 }
 
 #login {
-    margin-top: 10px;
+    padding: 10px;
+}
+
+#login-title {
+    margin-bottom: 30px;
+}
+
+#login-button {
+    background-color: #bf5900;
+    border-color: #bf5900;
+}
+
+#updates {
+    min-height: 500px;
+    max-height: 500px;
+}
+
+#regno {
+    width: 300px;
+}
+
+#dobdate {
+    width: 300px;
 }
