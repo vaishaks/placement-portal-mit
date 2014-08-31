@@ -1,1 +1,1 @@
-angular.module('sampleApp', ['ngRoute', 'appRoutes', 'DatepickerCtrl']);
+angular.module('placementApp', ['ngRoute', 'appRoutes', 'ui.bootstrap', 'DatepickerCtrl']);
